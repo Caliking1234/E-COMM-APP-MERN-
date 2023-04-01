@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&family=Tillana&family=Varela+Round&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tillana', sans-serif;
+}
+.nav{
+  width: 100vw;
+  height: 10vh;
+  background-color: #282c34;
+  position: fixed;
+  top: 0%;
+  z-index: 10;
+}
+.nav-ul li{
+  font-size: 20px;
+  display: inline-block;
+  padding: 2.5vh 10px 2.5vh 10px;
+}
+
+.nav-ul li a{
+  color: white;
+  padding: 5px 15px 5px 5px;
+  text-decoration: none;
+}
+
+.nav-ul li a:hover{
+  letter-spacing: 0.8px;
+  color: aquamarine;
+}
+
+.nav-ul{
+  margin: 0px;
+  padding: 5px 0px 5px 0px ;
+}
+
+.Footer{
+  background-color: #282c34;
+  height: 10vh;
+  color: white;
+  padding: 2.5px 0px 2.5px 0px;
+  position: fixed;
+  bottom: 0%;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupBody,.product{
+  margin: auto;
+  width: 60%;
+  /* background: rgba(0, 0, 0, 0.3); */
+  text-align: center;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+}
+
+.submitButton{
+  width: 25%;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border:rgba(0, 0, 0, 0.2); ;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.error-msg{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: -90px;
+}
+
+.product-list{
+  text-align: center;
+  color:#282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+
+.heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+  font-size: 50px;
+}
+
+.heading:hover{
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.container .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.container .box-container .box{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.container .box-container .box:hover{
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+}
+
+.card-text{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.App{
+  width: 100vw;
+}
+
+.body{
+  background:linear-gradient(45deg,aquamarine,#282c34);
+  min-height: 80vh;
+  width: 100%;
+  top:10vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 80vw;
+  margin:auto;
+}
+.box .box-table{
+  border-collapse: collapse;
+  margin: 10px auto;
+  font-size: 0.9em;
+  min-width: 100px;
+  font-weight: bolder;
+  color: black
+}
+
+.box span{
+  font-size: 0.6rem;
+  margin: 1px auto;
+}
+
+.box .box-table tr,
+.box .box-table td {
+  padding: 12px 15px;
+}
+
+.box .box-table tr:nth-last-of-type(even){
+  background: aquamarine;
+}
